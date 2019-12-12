@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #161616;
+}
+
+.header {
+    padding-top: 75px;
+    padding-bottom: 70px;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-heading {
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.slogan {
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.43px;
+}
+
+.slogan p {
+    margin: 0;
+}
+
+.social-icons a {
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #e3f0f7;
+}
+
+.about-me-text {
+    width: 445px;
+}
+
+.about-me-text p {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.61;
+    letter-spacing: 0.34px;
+}
+
+.title-2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+}
+
+.title-3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.61;
+    letter-spacing: 0.34px;
+}
+
+.about-me-text ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: 300;
+    letter-spacing: 0.34px;
+    font-size: 28px;
+    padding-left: 30px;
+}
+
+.about-me-text li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.about-me-text li:before {
+    content: "–";
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+
+.portfolio {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-display: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 130px;
+}
+
+.card:last-child, .card:nth-last-child(2) {
+    margin-bottom: 0px;
+}
+
+.card-img {
+    margin-bottom: 25px;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: 0.41px;
+}
+
+.card-desc {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: 0.34px;
+}
+
+.card-link {
+    color: #969696;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.19px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 95px;
+}
+
+.cta {
+    font-size: 36px;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+}
+
+.cta strong {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.cta a {
+    color: #4298e8;
+    text-decoration: underline;
+}
